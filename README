@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3202
+
+I ported the rdark colorscheme (http://www.vim.org/scripts/script.php?script_id=1732) to fit in a 256 color capable terminal.
+
+Info: As the original background color is not available in 256 color mode
+I've set it to black. But you can set the color your terminal should display
+for black to #1e2426 and you will have almost a 1:1 copy of the gui scheme.
+I also suggest to set the second black color to #2c3032. (It is the
+background color which ist used for NonText)
+If you're using a terminal which reads from Xdefaults (e.g. urxvt) you just
+do this in your .Xdefaults:
+*color0:     rgb:1e/24/26
+*color8:     rgb:2c/30/32
+
+Screenshot: http://www.img-share.net/uploads/125vim_b1.png
